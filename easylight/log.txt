@@ -1,0 +1,480 @@
+﻿│ │ │ │ ├─┬ jsprim@1.3.1
+│ │ │ │ │ ├── extsprintf@1.0.2
+│ │ │ │ │ ├── json-schema@0.2.3
+│ │ │ │ │ └── verror@1.3.6
+│ │ │ │ └─┬ sshpk@1.10.1
+│ │ │ │   ├── asn1@0.2.3
+│ │ │ │   ├── assert-plus@1.0.0
+│ │ │ │   ├── bcrypt-pbkdf@1.0.0
+│ │ │ │   ├─┬ dashdash@1.14.1
+│ │ │ │   │ └── assert-plus@1.0.0
+│ │ │ │   ├── ecc-jsbn@0.1.1
+│ │ │ │   ├─┬ getpass@0.1.6
+│ │ │ │   │ └── assert-plus@1.0.0
+│ │ │ │   ├── jodid25519@1.0.2
+│ │ │ │   ├── jsbn@0.1.0
+│ │ │ │   └── tweetnacl@0.14.5
+│ │ │ ├── is-typedarray@1.0.0
+│ │ │ ├── isstream@0.1.2
+│ │ │ ├── json-stringify-safe@5.0.1
+│ │ │ ├─┬ mime-types@2.1.13
+│ │ │ │ └── mime-db@1.25.0
+│ │ │ ├── oauth-sign@0.8.2
+│ │ │ ├── qs@6.3.0
+│ │ │ ├── stringstream@0.0.5
+│ │ │ ├─┬ tough-cookie@2.3.2
+│ │ │ │ └── punycode@1.4.1
+│ │ │ ├── tunnel-agent@0.4.3
+│ │ │ └── uuid@3.0.1
+│ │ └─┬ sass-graph@2.1.2
+│ │   ├─┬ glob@7.1.1
+│ │   │ └── minimatch@3.0.3
+│ │   ├── lodash@4.17.3
+│ │   └─┬ yargs@4.8.1
+│ │     ├─┬ cliui@3.2.0
+│ │     │ └── wrap-ansi@2.1.0
+│ │     ├── get-caller-file@1.0.2
+│ │     ├─┬ os-locale@1.4.0
+│ │     │ └─┬ lcid@1.0.0
+│ │     │   └── invert-kv@1.0.0
+│ │     ├── require-directory@2.1.1
+│ │     ├── require-main-filename@1.0.1
+│ │     ├── which-module@1.0.0
+│ │     ├── window-size@0.2.0
+│ │     ├── y18n@3.2.1
+│ │     └─┬ yargs-parser@2.4.1
+│ │       └── camelcase@3.0.0
+│ └── vinyl-sourcemaps-apply@0.2.1
+├─┬ gulp-util@2.2.20
+│ ├─┬ chalk@0.5.1
+│ │ ├── ansi-styles@1.1.0
+│ │ ├─┬ has-ansi@0.1.0
+│ │ │ └── ansi-regex@0.2.1
+│ │ ├── strip-ansi@0.3.0
+│ │ └── supports-color@0.2.0
+│ ├── dateformat@1.0.12
+│ ├── lodash._reinterpolate@2.4.1
+│ ├─┬ lodash.template@2.4.1
+│ │ ├── lodash._escapestringchar@2.4.1
+│ │ ├─┬ lodash.defaults@2.4.1
+│ │ │ ├── lodash._objecttypes@2.4.1
+│ │ │ └── lodash.keys@2.4.1
+│ │ ├─┬ lodash.escape@2.4.1
+│ │ │ ├─┬ lodash._escapehtmlchar@2.4.1
+│ │ │ │ └── lodash._htmlescapes@2.4.1
+│ │ │ └─┬ lodash._reunescapedhtml@2.4.1
+│ │ │   └── lodash.keys@2.4.1
+│ │ ├─┬ lodash.keys@2.4.1
+│ │ │ ├── lodash._isnative@2.4.1
+│ │ │ ├── lodash._shimkeys@2.4.1
+│ │ │ └── lodash.isobject@2.4.1
+│ │ ├── lodash.templatesettings@2.4.1
+│ │ └─┬ lodash.values@2.4.1
+│ │   └── lodash.keys@2.4.1
+│ ├── minimist@0.2.0
+│ ├─┬ multipipe@0.1.2
+│ │ └── duplexer2@0.0.2
+│ ├─┬ through2@0.5.1
+│ │ ├── readable-stream@1.0.34
+│ │ └── xtend@3.0.0
+│ └─┬ vinyl@0.2.3
+│   └── clone-stats@0.0.1
+└── shelljs@0.3.0
+
+npm WARN EPACKAGEJSON ionic-project@1.1.1 No repository field.
+npm WARN EPACKAGEJSON ionic-project@1.1.1 No license field.
+
+Adding initial native plugins
+Initializing cordova project without CLI
+Saving your Ionic app state of platforms and plugins
+Saved platform
+Saved plugins
+Saved package.json
+
+? ♫ ? ♫  Your Ionic app is ready to go! ? ♫ ? ♫
+
+Some helpful tips:
+
+Run your app in the browser (great for initial development):
+  ionic serve
+
+Run on a device or simulator:
+  ionic run ios[android,browser]
+
+Test and share your app on device with Ionic View:
+  http://view.ionic.io
+
+Build better Enterprise apps with expert Ionic support:
+  http://ionic.io/enterprise
+
+Create an Ionic Cloud account to add features like User Authentication, Push Not
+ifications, Live Updating, iOS builds, and more?
+(Y/n): n
+
+E:\Research\domisu\GitHub\cordova\Temp>cd easylight
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>ionic serve
+Running live reload server: http://192.168.1.2:35729
+Watching: www/**/*, !www/lib/**/*, !www/**/*.map
+√ Running dev server:  http://192.168.1.2:8100
+Ionic server commands, enter:
+  restart or r to restart the client app from the root
+  goto or g and a url to have the app navigate to the given url
+  consolelogs or c to enable/disable console log output
+  serverlogs or s to enable/disable server log output
+  quit or q to shutdown the server and exit
+
+ionic $ quit
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cd ..
+
+E:\Research\domisu\GitHub\cordova\Temp>cordova platform add android
+Error: Current working directory is not a Cordova-based project.
+
+E:\Research\domisu\GitHub\cordova\Temp>cd easylight
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cordova platform add android
+Adding android project...
+Creating Cordova project for the Android platform:
+        Path: platforms\android
+        Package: com.ionicframework.easylight869555
+        Name: easylight
+        Activity: MainActivity
+        Android target: android-23
+Android project created with cordova-android@5.1.1
+Installing "cordova-plugin-console" for android
+Installing "cordova-plugin-device" for android
+Installing "cordova-plugin-splashscreen" for android
+Installing "cordova-plugin-statusbar" for android
+Installing "cordova-plugin-whitelist" for android
+
+               This plugin is only applicable for versions of cordova-android gr
+eater than 4.0. If you have a previous platform version, you do *not* need this
+plugin since the whitelist will be built in.
+
+Installing "ionic-plugin-keyboard" for android
+Running command: "C:\Program Files (x86)\nodejs\node.exe" E:\Research\domisu\Git
+Hub\cordova\Temp\easylight\hooks\after_prepare\010_add_platform_class.js E:\Rese
+arch\domisu\GitHub\cordova\Temp\easylight
+add to body class: platform-android
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install ng-cordova
+'bower' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cd ..
+
+E:\Research\domisu\GitHub\cordova\Temp>npm install -g bower grunt grunt-cli
+C:\Users\nlduy.CODIXFR\AppData\Roaming\npm\grunt -> C:\Users\nlduy.CODIXFR\AppDa
+ta\Roaming\npm\node_modules\grunt-cli\bin\grunt
+C:\Users\nlduy.CODIXFR\AppData\Roaming\npm\bower -> C:\Users\nlduy.CODIXFR\AppDa
+ta\Roaming\npm\node_modules\bower\bin\bower
+C:\Users\nlduy.CODIXFR\AppData\Roaming\npm\grunt -> C:\Users\nlduy.CODIXFR\AppDa
+ta\Roaming\npm\node_modules\grunt\bin\grunt
+C:\Users\nlduy.CODIXFR\AppData\Roaming\npm
+├── bower@1.8.0
+├─┬ grunt@1.0.1
+│ ├── coffee-script@1.10.0
+│ ├─┬ dateformat@1.0.12
+│ │ ├── get-stdin@4.0.1
+│ │ └─┬ meow@3.7.0
+│ │   ├─┬ camelcase-keys@2.1.0
+│ │   │ └── camelcase@2.1.1
+│ │   ├── decamelize@1.2.0
+│ │   ├─┬ loud-rejection@1.6.0
+│ │   │ ├─┬ currently-unhandled@0.4.1
+│ │   │ │ └── array-find-index@1.0.2
+│ │   │ └── signal-exit@3.0.2
+│ │   ├── map-obj@1.0.1
+│ │   ├── minimist@1.2.0
+│ │   ├─┬ normalize-package-data@2.3.5
+│ │   │ ├── hosted-git-info@2.1.5
+│ │   │ ├─┬ is-builtin-module@1.0.0
+│ │   │ │ └── builtin-modules@1.1.1
+│ │   │ ├── semver@5.3.0
+│ │   │ └─┬ validate-npm-package-license@3.0.1
+│ │   │   ├─┬ spdx-correct@1.0.2
+│ │   │   │ └── spdx-license-ids@1.2.2
+│ │   │   └── spdx-expression-parse@1.0.4
+│ │   ├── object-assign@4.1.0
+│ │   ├─┬ read-pkg-up@1.0.1
+│ │   │ ├─┬ find-up@1.1.2
+│ │   │ │ ├── path-exists@2.1.0
+│ │   │ │ └─┬ pinkie-promise@2.0.1
+│ │   │ │   └── pinkie@2.0.4
+│ │   │ └─┬ read-pkg@1.1.0
+│ │   │   ├─┬ load-json-file@1.1.0
+│ │   │   │ ├── graceful-fs@4.1.11
+│ │   │   │ ├─┬ parse-json@2.2.0
+│ │   │   │ │ └─┬ error-ex@1.3.0
+│ │   │   │ │   └── is-arrayish@0.2.1
+│ │   │   │ ├── pify@2.3.0
+│ │   │   │ └─┬ strip-bom@2.0.0
+│ │   │   │   └── is-utf8@0.2.1
+│ │   │   └── path-type@1.1.0
+│ │   ├─┬ redent@1.0.0
+│ │   │ ├─┬ indent-string@2.1.0
+│ │   │ │ └─┬ repeating@2.0.1
+│ │   │ │   └─┬ is-finite@1.0.2
+│ │   │ │     └── number-is-nan@1.0.1
+│ │   │ └── strip-indent@1.0.1
+│ │   └── trim-newlines@1.0.0
+│ ├── eventemitter2@0.4.14
+│ ├── exit@0.1.2
+│ ├─┬ findup-sync@0.3.0
+│ │ └── glob@5.0.15
+│ ├─┬ glob@7.0.6
+│ │ ├── fs.realpath@1.0.0
+│ │ ├─┬ inflight@1.0.6
+│ │ │ └── wrappy@1.0.2
+│ │ ├── inherits@2.0.3
+│ │ └── once@1.4.0
+│ ├── grunt-known-options@1.1.0
+│ ├─┬ grunt-legacy-log@1.0.0
+│ │ ├── colors@1.1.2
+│ │ ├─┬ grunt-legacy-log-utils@1.0.0
+│ │ │ ├─┬ chalk@1.1.3
+│ │ │ │ ├── ansi-styles@2.2.1
+│ │ │ │ ├── escape-string-regexp@1.0.5
+│ │ │ │ ├─┬ has-ansi@2.0.0
+│ │ │ │ │ └── ansi-regex@2.0.0
+│ │ │ │ ├── strip-ansi@3.0.1
+│ │ │ │ └── supports-color@2.0.0
+│ │ │ └── lodash@4.3.0
+│ │ ├── hooker@0.2.3
+│ │ ├── lodash@3.10.1
+│ │ └── underscore.string@3.2.3
+│ ├─┬ grunt-legacy-util@1.0.0
+│ │ ├── async@1.5.2
+│ │ ├── getobject@0.1.0
+│ │ ├── lodash@4.3.0
+│ │ └─┬ which@1.2.12
+│ │   └── isexe@1.1.2
+│ ├── iconv-lite@0.4.15
+│ ├─┬ js-yaml@3.5.5
+│ │ ├─┬ argparse@1.0.9
+│ │ │ └── sprintf-js@1.0.3
+│ │ └── esprima@2.7.3
+│ ├─┬ minimatch@3.0.3
+│ │ └─┬ brace-expansion@1.1.6
+│ │   ├── balanced-match@0.4.2
+│ │   └── concat-map@0.0.1
+│ ├─┬ nopt@3.0.6
+│ │ └── abbrev@1.0.9
+│ ├── path-is-absolute@1.0.1
+│ └── rimraf@2.2.8
+└─┬ grunt-cli@1.2.0
+  ├─┬ findup-sync@0.3.0
+  │ └─┬ glob@5.0.15
+  │   ├─┬ inflight@1.0.6
+  │   │ └── wrappy@1.0.2
+  │   ├── inherits@2.0.3
+  │   ├─┬ minimatch@3.0.3
+  │   │ └─┬ brace-expansion@1.1.6
+  │   │   ├── balanced-match@0.4.2
+  │   │   └── concat-map@0.0.1
+  │   ├── once@1.4.0
+  │   └── path-is-absolute@1.0.1
+  ├── grunt-known-options@1.1.0
+  ├─┬ nopt@3.0.6
+  │ └── abbrev@1.0.9
+  └── resolve@1.1.7
+
+
+E:\Research\domisu\GitHub\cordova\Temp>npm list -g --depth=0
+^CTerminate batch job (Y/N)? y
+
+E:\Research\domisu\GitHub\cordova\Temp>cd easylight
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install ng-cordova
+bower invalid-meta  for:E:\Research\domisu\GitHub\cordova\Temp\easylight\bower.j
+son
+bower invalid-meta  The "name" is recommended to be lowercase, can contain digit
+s, dots, dashes
+bower ENOGIT        git is not installed or not in the PATH
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>git
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install ng-cordova
+bower invalid-meta  for:E:\Research\domisu\GitHub\cordova\Temp\easylight\bower.j
+son
+bower invalid-meta  The "name" is recommended to be lowercase, can contain digit
+s, dots, dashes
+bower not-cached    https://github.com/driftyco/ionic-bower.git#1.3.2
+bower resolve       https://github.com/driftyco/ionic-bower.git#1.3.2
+bower download      https://github.com/driftyco/ionic-bower/archive/v1.3.2.tar.g
+z
+bower extract       ionic#1.3.2 archive.tar.gz
+bower invalid-meta  for:C:\Users\NLDUY~1.COD\AppData\Local\Temp\CODIXFR-nlduy\bo
+wer\bf2802b39384aa9e0b0a44f3fe9ee12a-30776-3BzImV\bower.json
+bower invalid-meta  The "main" field cannot contain globs (example: "*.js")
+bower invalid-meta  The "main" field has to contain only 1 file per filetype; fo
+und multiple .js files: ["js/ionic.js","js/ionic-angular.js"]
+bower resolved      https://github.com/driftyco/ionic-bower.git#1.3.2
+bower ENOTFOUND     Package ng-cordova not found
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install ngCordova
+bower invalid-meta  for:E:\Research\domisu\GitHub\cordova\Temp\easylight\bower.j
+son
+bower invalid-meta  The "name" is recommended to be lowercase, can contain digit
+s, dots, dashes
+bower cached        https://github.com/driftyco/ionic-bower.git#1.3.2
+bower validate      1.3.2 against https://github.com/driftyco/ionic-bower.git#1.
+3.2
+bower not-cached    https://github.com/driftyco/ng-cordova.git#*
+bower resolve       https://github.com/driftyco/ng-cordova.git#*
+bower download      https://github.com/driftyco/ng-cordova/archive/v0.1.27-alpha
+.tar.gz
+bower not-cached    https://github.com/angular/bower-angular.git#1.5.3
+bower resolve       https://github.com/angular/bower-angular.git#1.5.3
+bower not-cached    https://github.com/angular-ui/angular-ui-router-bower.git#0.
+2.13
+bower resolve       https://github.com/angular-ui/angular-ui-router-bower.git#0.
+2.13
+bower not-cached    https://github.com/angular/bower-angular-animate.git#1.5.3
+bower resolve       https://github.com/angular/bower-angular-animate.git#1.5.3
+bower not-cached    https://github.com/angular/bower-angular-sanitize.git#1.5.3
+bower resolve       https://github.com/angular/bower-angular-sanitize.git#1.5.3
+bower download      https://github.com/angular-ui/angular-ui-router-bower/archiv
+e/0.2.13.tar.gz
+bower download      https://github.com/angular/bower-angular-animate/archive/v1.
+5.3.tar.gz
+bower download      https://github.com/angular/bower-angular-sanitize/archive/v1
+.5.3.tar.gz
+bower extract       angular-ui-router#0.2.13 archive.tar.gz
+bower resolved      https://github.com/angular-ui/angular-ui-router-bower.git#0.
+2.13
+bower download      https://github.com/angular/bower-angular/archive/v1.5.3.tar.
+gz
+bower progress      ngCordova#* received 3.6MB
+bower extract       ngCordova#* archive.tar.gz
+bower extract       angular-sanitize#1.5.3 archive.tar.gz
+bower resolved      https://github.com/angular/bower-angular-sanitize.git#1.5.3
+bower extract       angular-animate#1.5.3 archive.tar.gz
+bower resolved      https://github.com/angular/bower-angular-animate.git#1.5.3
+bower extract       angular#1.5.3 archive.tar.gz
+bower resolved      https://github.com/angular/bower-angular.git#1.5.3
+bower invalid-meta  for:C:\Users\NLDUY~1.COD\AppData\Local\Temp\CODIXFR-nlduy\bo
+wer\50422a025dd8b1b526b137f375aedfb5-31840-wultpG\bower.json
+bower invalid-meta  The "name" is recommended to be lowercase, can contain digit
+s, dots, dashes
+bower resolved      https://github.com/driftyco/ng-cordova.git#0.1.27-alpha
+bower install       ionic#1.3.2
+bower skipped       ionic was not installed because there is already a non-bower
+ directory with that name in the components directory (www\lib\ionic). You can f
+orce installation with --force.
+bower install       angular-ui-router#0.2.13
+bower install       angular-sanitize#1.5.3
+bower install       angular-animate#1.5.3
+bower install       angular#1.5.3
+bower install       ngCordova#0.1.27-alpha
+
+ionic#1.3.2 C:\Users\nlduy.CODIXFR\AppData\Local\bower\cache\packages\75785deacc
+09255f971c33542b04c50a\1.3.2
+├── angular#1.5.3
+├── angular-animate#1.5.3
+├── angular-sanitize#1.5.3
+└── angular-ui-router#0.2.13
+
+angular-ui-router#0.2.13 www\lib\angular-ui-router
+└── angular#1.5.3
+
+angular-sanitize#1.5.3 www\lib\angular-sanitize
+└── angular#1.5.3
+
+angular-animate#1.5.3 www\lib\angular-animate
+└── angular#1.5.3
+
+angular#1.5.3 www\lib\angular
+
+ngCordova#0.1.27-alpha www\lib\ngCordova
+└── angular#1.5.3
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>ionic serve
+Running live reload server: http://192.168.1.2:35729
+Watching: www/**/*, !www/lib/**/*, !www/**/*.map
+√ Running dev server:  http://192.168.1.2:8100
+Ionic server commands, enter:
+  restart or r to restart the client app from the root
+  goto or g and a url to have the app navigate to the given url
+  consolelogs or c to enable/disable console log output
+  serverlogs or s to enable/disable server log output
+  quit or q to shutdown the server and exit
+
+ionic $ quit
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install angular-translate
+
+^CTerminate batch job (Y/N)? y
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>bower install angular-translate
+
+bower invalid-meta  for:E:\Research\domisu\GitHub\cordova\Temp\easylight\bower.j
+son
+bower invalid-meta  The "name" is recommended to be lowercase, can contain digit
+s, dots, dashes
+bower cached        https://github.com/driftyco/ionic-bower.git#1.3.2
+bower validate      1.3.2 against https://github.com/driftyco/ionic-bower.git#1.
+3.2
+bower not-cached    https://github.com/PascalPrecht/bower-angular-translate.git#
+*
+bower resolve       https://github.com/PascalPrecht/bower-angular-translate.git#
+*
+bower download      https://github.com/PascalPrecht/bower-angular-translate/arch
+ive/2.13.1.tar.gz
+bower extract       angular-translate#* archive.tar.gz
+bower resolved      https://github.com/PascalPrecht/bower-angular-translate.git#
+2.13.1
+bower install       ionic#1.3.2
+bower skipped       ionic was not installed because there is already a non-bower
+ directory with that name in the components directory (www\lib\ionic). You can f
+orce installation with --force.
+bower install       angular-translate#2.13.1
+
+ionic#1.3.2 C:\Users\nlduy.CODIXFR\AppData\Local\bower\cache\packages\75785deacc
+09255f971c33542b04c50a\1.3.2
+├── angular#1.5.3
+├── angular-animate#1.5.3
+├── angular-sanitize#1.5.3
+└── angular-ui-router#0.2.13
+
+angular-translate#2.13.1 www\lib\angular-translate
+└── angular#1.5.3
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cordova plug in add plug in
+Error: Cordova does not know plug; try `cordova help` for a list of all the avai
+lable commands.
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cordova plugin add cordova-plug
+in-camera
+Fetching plugin "cordova-plugin-camera" via npm
+Installing "cordova-plugin-camera" for android
+Fetching plugin "cordova-plugin-compat" via npm
+Installing "cordova-plugin-compat" for android
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cordova plugin add cordova-plug
+in-admod
+Error: Registry returned 404 for GET on https://registry.npmjs.org/cordova-plugi
+n-admod
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>cordova plugin add cordova-plug
+in-admob
+Fetching plugin "cordova-plugin-admob" via npm
+Installing "cordova-plugin-admob" for android
+Fetching plugin "cordova-admobsdk" via npm
+Installing "cordova-admobsdk" for android
+
+E:\Research\domisu\GitHub\cordova\Temp\easylight>
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore debug.keystore android-release-unsigned.apk androiddebugkey
+E:\Research\domisu\GitHub\cordova\Temp>adb install -r myapk.apk
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+92 KB/s (6720242 bytes in 70.649s)
+        pkg: /data/local/tmp/myapk.apk
+Success
+
+E:\Research\domisu\GitHub\cordova\Temp>
