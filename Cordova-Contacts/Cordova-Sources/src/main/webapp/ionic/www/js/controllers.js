@@ -53,4 +53,38 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+})
+
+.controller('ContactlistCtrl', function($scope, $stateParams, $cordovaContacts, $ionicPlatform) {
+//will load contact list from the phone directory
+/*  $scope.contactlist = [
+    { name: 'Reggae', phone: '123', id: 1 },
+    { name: 'Chill', phone: '123', id: 2 },
+    { name: 'Dubstep', phone: '123', id: 3 },
+    { name: 'Indie', phone: '123', id: 4 },
+    { name: 'Rap', phone: '123', id: 5 },
+    { name: 'Cowbell', phone: '123', id: 6 }
+  ];*/
+
+ // find all contacts
+/*    var options = new ContactFindOptions();
+    options.filter = "";
+    options.multiple = true;
+    options.hasPhoneNumber = true;
+    var filter = ["displayName", "addresses"];
+    navigator.contacts.find(filter, onFindSuccess, onFindError, options);*/
+
+     $scope.contactlist = {};
+     $cordovaContacts.find({fields:  [ 'displayName']}).then(function(allContacts){
+      console.log('Found ' + allContacts.length + ' contacts.');
+      $scope.contactlist = allContacts;
+     });
 });
+
+function onFindSuccess(contacts) {
+    alert('Found ' + contacts.length + ' contacts.');
+}
+
+function onFindError(contactError) {
+    alert('onError!');
+};
